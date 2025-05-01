@@ -1,0 +1,26 @@
+{
+  "name": "my-ui-lib",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.3.0",
+    "react-dom": "^17.0.0 || ^18.3.0"
+  },
+  "devDependencies": {
+    "rollup": "^3.29.4",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "typescript": "^4.0.0"
+  }
+}
